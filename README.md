@@ -17,7 +17,8 @@ O Frontend foi dividido nos seguintes módulos:
 Para o microserviço de Vagas, as outras funcionalidades estão desabilitadas e os endpoints utilizados foram: 
   - http://*/candidato/perfil (Requisição GET para as Vagas)
   - http://*/empresa/cagastro (Requisição POST para as Vagas)
-    
+  
+Obs.: A aplicação está sem a lógica de relacionamento das Vagas com as Empresas, pois precisa da aplicação completa para pegar o id da empresa no localhost, para que haja a relação na tabela de vaga.
 
 <h3>Executando o projeto Angular</h3>
 
